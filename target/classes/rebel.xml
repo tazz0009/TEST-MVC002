@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
+
+	<classpath>
+		<dir name="C:/Users/AWA22/ucloud_backup/javaInComp/workspaceForJpa/TEST-MVC002/target/classes">
+			<include name="applicationContext-resources.xml"/>
+			<include name="displaytag.properties"/>
+			<include name="ehcache.xml"/>
+			<include name="hibernate.cfg.xml"/>
+			<include name="jdbc.properties"/>
+			<include name="log4j.xml"/>
+			<include name="mail.properties"/>
+			<include name="messages.properties"/>
+			<include name="META-INF/persistence.xml"/>
+			<include name="sql-map-config.xml"/>
+		</dir>
+		<dir name="C:/Users/AWA22/ucloud_backup/javaInComp/workspaceForJpa/TEST-MVC002/src/main/java">
+			<include name="**/*.xml"/>
+		</dir>
+		<dir name="C:/Users/AWA22/ucloud_backup/javaInComp/workspaceForJpa/TEST-MVC002/target/classes">
+		</dir>
+	</classpath>
+
+	<web>
+		<link target="/">
+			<dir name="C:/Users/AWA22/ucloud_backup/javaInComp/workspaceForJpa/TEST-MVC002/src/main/webapp">
+			</dir>
+		</link>
+	</web>
+
+</application>
